@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    background-image: url("../Image/equipo.jpg");
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+.card-title, .card-text {
+    font-family: 'CopseRegular';
+    text-align: center;
+}
+
+.col {
+    width: 150;
+    height: 150;
+    background: none;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

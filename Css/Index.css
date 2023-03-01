@@ -1,0 +1,47 @@
+.portada {
+    max-width: 100%;
+}
+
+main {
+    flex: 1;
+}
+
+.portada img {
+    width: 100%;
+    max-height: calc(100vh - 88px);
+    object-fit: cover;
+}
+
+.white{
+    color: white
+}
+
+.enlace{
+    text-decoration: none;
+    color: #00d0ff;
+}
+
+.container-flex{
+    width: 100%;
+    margin: 0%;
+    background-color: #CF3A10;
+}
+
+.pagina{
+    text-align: center;
+    padding: 1%;
+    margin: 1%;
+    font-size: larger;
+}
+
+.title {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.title p {
+    font-family: 'Madfont';
+    font-size: 1.5em;
+    margin: 0;
+}

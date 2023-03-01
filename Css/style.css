@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Madfont';
+    src: url(../FuenteLogo/madfont.ttf) format("truetype");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'CopseRegular';
+    src: url(../Fuente/Copse-Regular.ttf) format("truetype");
+}
+
+.navbar{
+    background-color: #58A0B9;
+}
+
+#logo{
+    box-shadow: 0 0 3px 3px rgb(255, 255, 255);
+    border-radius: 100%;
+}
+
+.navbar p {
+    font-family: 'Madfont';
+    font-size: 1.7em;
+    margin: 0;
+}
+
+.breadcramp{
+    color: white;
+    background-color: black;
+    width: fit-content;
+}
+
+.breadcramp a{
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    background-color: #58A0B9;
+    padding: 10px 0 10px 0;
+}
+
+footer a {
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Madfont';
+    src: url(../FuenteLogo/madfont.ttf) format("truetype");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'CopseRegular';
+    src: url(../Fuente/Copse-Regular.ttf) format("truetype");
+}
+
+p, h3{
+    font-family: 'CopseRegular';
+}
+
+.title-page h3{
+    text-align: left;
+    text-decoration: underline;
+    border-radius: 5px;
+    color: white;
+    padding: 2%;
+    background-color: #CF3A10;
+}
+
+.map{
+    text-align: center;
+}
