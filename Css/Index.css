@@ -45,3 +45,7 @@ main {
     font-size: 1.5em;
     margin: 0;
 }
+
+fieldset {
+    border: 1px solid white;
+}
